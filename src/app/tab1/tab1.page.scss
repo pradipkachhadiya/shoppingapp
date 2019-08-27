@@ -1,0 +1,152 @@
+.ion-header {
+  --background: #f2f2f2 !important;
+}
+
+.leftIcon {
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
+.rightIcon {
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 16px;
+}
+
+ion-content {
+  --background: #f2f2f2 !important;
+}
+
+.banner {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.orderNow {
+  --background: white;
+  width: 25vw;
+  height: 8vw !important;
+  font-size: 0.6em;
+  position: relative;
+  top: -70px;
+  left: 14px;
+  color: black;
+  font-weight: bold;
+}
+
+.categoryBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .catBlock {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 6px 16px;
+    box-shadow: 0 0 1px 0 #cdcdcd;
+
+    img {
+      height: 70px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    p {
+      text-align: center;
+      font-size: 16px;
+      margin: 3px;
+      font-weight: bold;
+    }
+  }
+}
+
+.groupHeading {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 16px;
+}
+
+.subCategoryBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .subCatBlock {
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 4px 8px;
+    box-shadow: 0 0 1px 0 #cdcdcd;
+    margin: 6px;
+    width: calc(100% / 4);
+
+    img {
+      height: 40px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    p {
+      text-align: center;
+      font-size: 10px;
+      margin: 3px;
+      font-weight: bold;
+    }
+  }
+}
+
+.servicesBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .serviceBlock {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 6px;
+    padding: 6px 16px;
+    box-shadow: 0 0 1px 0 #cdcdcd;
+
+    img {
+      height: 70px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    p {
+      text-align: center;
+      font-size: 14px;
+      margin: 3px;
+      font-weight: bold;
+      width: 50%;
+    }
+  }
+}
+
+.advertBlock {
+  border-radius: 30px;
+  padding: 16px 30px;
+  background-color: white;
+  box-shadow: 0 0 1px 0 #cdcdcd;
+  margin: 16px;
+
+  ion-button {
+    --background: #524fdc;
+    width: 25vw;
+    height: 8vw !important;
+    font-size: 0.6em;
+    position: relative;
+    top: -46px;
+    margin-bottom: -40px;
+  }
+}

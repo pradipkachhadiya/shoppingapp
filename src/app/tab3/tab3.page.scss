@@ -1,0 +1,251 @@
+.ion-header {
+  --background: #f2f2f2 !important;
+}
+
+.leftIcon {
+  width: 20px;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.rightIcon {
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 16px;
+}
+
+.groupHeading {
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 32px;
+  margin-bottom: 0;
+}
+
+.productBlock {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .infoBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+
+    img {
+      height: 60px;
+    }
+
+    .desc {
+      font-size: 12px;
+      font-weight: bold;
+      margin-left: 16px;
+
+      p {
+        margin: 0;
+      }
+
+      p:nth-child(2) {
+        margin-top: 16px;
+        font-family: "Montserrat-Light";
+      }
+    }
+  }
+
+  .qtyBlock {
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 1px 0 #b2b2b2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 6px;
+
+    span {
+      font-weight: bold;
+      font-size: 16px;
+      color: #5c7493;
+    }
+
+    span:nth-child(1),
+    span:nth-child(3) {
+      font-size: 30px;
+      font-weight: normal;
+      margin-top: -10px;
+    }
+  }
+
+  .amountBlock {
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+
+.instBlock {
+  padding: 16px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-top: 22px solid #e5e5e5;
+  border-bottom: 22px solid #e5e5e5;
+
+  img {
+    height: 8px;
+    width: 20px;
+    margin-right: 30px;
+    position: relative;
+    top: 3px;
+  }
+
+  ion-input {
+    color: #7a9399;
+    font-size: 14px;
+    position: relative;
+    top: -12px;
+    input {
+      font-family: "Montserrat-Regular" !important;
+    }
+  }
+}
+
+.chargesBlock {
+  margin: 16px;
+  border-bottom: 16px solid #242926;
+  padding-bottom: 8px;
+
+  .blockTitle {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .blockItem {
+    color: black;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 12px;
+    font-weight: bold;
+
+    img {
+      width: 16px;
+      margin-bottom: -3px;
+    }
+  }
+
+  .blockItem:nth-child(4) {
+    color: #52b46a;
+    font-size: 12px;
+    span {
+      color: black;
+    }
+  }
+
+  .itemTotal {
+    font-family: "Montserrat-Regular";
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.trackBlock {
+  margin-left: 32px;
+  border-left: 2px solid #e5e5e5;
+  position: relative;
+
+  img {
+    width: 30px;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+  }
+
+  .statusRow::before {
+    content: "";
+    display: block;
+    background: url("../../assets/icon/downIcon.png") no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    left: -50px;
+    top: 0px;
+  }
+  .statusRow {
+    font-weight: bold;
+    color: #7a9399;
+    font-size: 12px;
+    padding-left: 32px;
+    width: 85%;
+
+    p:nth-child(1) {
+      margin-top: -32px;
+    }
+  }
+}
+
+.noteBlock {
+  background-color: #fafcfc;
+  padding: 16px;
+
+  p {
+    color: #666666;
+    text-align: justify;
+    font-size: 12px;
+  }
+}
+
+.payment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  p {
+    position: relative;
+    bottom: -16px;
+    font-weight: bold;
+    font-size: 16px;
+
+    span:nth-child(1) {
+      color: #7a9399;
+      margin: 0 6px;
+    }
+
+    span:nth-child(3) {
+      text-decoration: line-through;
+      margin-left: 6px;
+    }
+  }
+  ion-button {
+    position: relative;
+    top: 16px;
+    --background: #4fdc8f;
+    height: 40px;
+  }
+}
+
+.alertBlock {
+  border: 2px solid #4fdc8f;
+  background-color: #f2f2f2;
+  color: #00cc33;
+  margin: 32px 16px 8px 16px;
+  padding: 0 16px;
+  border-radius: 3px;
+
+  p {
+    font-size: 12px;
+    img {
+      width: 16px;
+      margin-right: 8px;
+    }
+  }
+}

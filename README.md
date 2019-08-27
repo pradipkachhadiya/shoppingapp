@@ -1,1 +1,1 @@
-# shoppingapp
+# shopping-app
